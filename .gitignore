@@ -1,0 +1,8 @@
+# Local tooling / preview config
+.claude/
+.codex/
+tmp/
+
+# OS junk
+.DS_Store
+Thumbs.db
