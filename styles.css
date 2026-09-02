@@ -48,9 +48,8 @@ h1 em, h2 em { color: var(--orange); font-family: "Lobster", cursive; font-style
 .button-primary { background: var(--ink); color: #fff; box-shadow: 0 12px 24px rgba(16, 16, 16, 0.16); }
 .button-primary:hover, .button-primary:focus-visible { background: var(--orange-deep); }
 .button-quiet { border: 1px solid var(--line); background: rgba(255, 255, 255, 0.48); }
-.hero-pills, .skills-cloud, .tag-row { display: flex; flex-wrap: wrap; gap: 8px; }
-.hero-pills { margin-top: 28px; }
-.hero-pills span, .skills-cloud span, .tag { padding: 6px 10px; border: 1px solid rgba(255, 152, 8, 0.28); border-radius: 999px; background: rgba(255, 255, 255, 0.52); color: #433c34; font-family: "JetBrains Mono", monospace; font-size: 0.71rem; font-weight: 700; }
+.skills-cloud, .tag-row { display: flex; flex-wrap: wrap; gap: 8px; }
+.skills-cloud span, .tag { padding: 6px 10px; border: 1px solid rgba(255, 152, 8, 0.28); border-radius: 999px; background: rgba(255, 255, 255, 0.52); color: #433c34; font-family: "JetBrains Mono", monospace; font-size: 0.71rem; font-weight: 700; }
 
 .hero-education, .glass-panel { border: 1px solid var(--glass-line); background: linear-gradient(145deg, rgba(255, 255, 255, 0.84), rgba(255, 255, 255, 0.28)), rgba(255, 248, 238, 0.32); box-shadow: var(--glass-shadow); backdrop-filter: blur(22px) saturate(175%); -webkit-backdrop-filter: blur(22px) saturate(175%); }
 .hero-education { position: relative; overflow: hidden; border-radius: var(--radius); }
