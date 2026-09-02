@@ -2,6 +2,8 @@
 
 Personal portfolio for [Aniket Rattan](https://github.com/aniketrattan), built as a dependency-free static site for GitHub Pages.
 
+The hero includes a small canvas-based 3D projection. It has no runtime dependency, pauses when it is off-screen, and respects reduced-motion settings.
+
 ## Local preview
 
 Open `index.html` directly in a browser, or serve the folder with any static file server.
