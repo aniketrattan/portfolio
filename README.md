@@ -1,6 +1,6 @@
 # Aniket Rattan — Portfolio
 
-Personal portfolio for [Aniket Rattan](https://github.com/aniketrattan), built as a dependency-free multi-page static site for GitHub Pages.
+Personal portfolio for [Aniket Rattan](https://github.com/aniketrattan), built as a dependency-free static site for GitHub Pages.
 
 ## Local preview
 
@@ -8,22 +8,18 @@ Open `index.html` directly in a browser, or serve the folder with any static fil
 
 ## Current content
 
-- Resume-backed profile and contact links
+- Resume-backed profile, education, experience, technical skills, and contact links on the home page
 - Data analysis project covering economic growth and environmental health
 - Machine learning project analysing video game markets
-- Professional experience at Orange Mind and Alignerr
-- Adelaide University education, coursework, and technical skills
+- A single projects page that can grow with additional case-study sections
 
-The project details are intentionally a first pass. Future updates can add source links, screenshots, technical decisions, outcomes, and longer case studies once those details are confirmed.
+The project details are intentionally a first pass. Future updates can add source links, screenshots, technical decisions, outcomes, and longer case-study sections once those details are confirmed.
 
 ## Page map
 
-- `index.html` — home and selected-work overview
-- `about.html` — personal story, education, and skills
-- `work.html` — project index
-- `projects/research.html` — economic growth and environmental health study
-- `projects/video-games.html` — video game market machine-learning study
+- `index.html` — complete personal profile, education, experience, skills, and links
+- `projects.html` — all project case studies in one expandable page
 - `experience.html` — professional and extracurricular experience
 - `contact.html` — contact links and resume
 
-Each page uses the same visual system and can grow independently as more project details, evidence, and case studies are added.
+The home page owns the personal information, while `projects.html` owns the project content. New projects can be added as sections without creating another page for each one.
