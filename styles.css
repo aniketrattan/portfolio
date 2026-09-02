@@ -220,8 +220,6 @@ h1 em, h2 em { color: var(--orange); font-family: "Lobster", cursive; font-style
 .status-dot { color: #3e765d; font-size: 0.66rem; }
 .status-dot i { display: inline-block; width: 7px; height: 7px; margin-right: 5px; border-radius: 50%; background: #36a76e; box-shadow: 0 0 0 3px rgba(54, 167, 110, 0.14); }
 .dossier-body { position: relative; min-height: 420px; padding: 34px 28px; }
-.hero-canvas { position: absolute; inset: 0; z-index: 0; width: 100%; height: 100%; opacity: 0.84; pointer-events: none; }
-.dossier-body > :not(.hero-canvas) { position: relative; z-index: 1; }
 .dossier-orbit { position: relative; display: grid; width: 220px; height: 220px; margin: 2px auto 34px; place-items: center; }
 .orbit-ring { position: absolute; border: 1px solid rgba(255, 152, 8, 0.28); border-radius: 50%; transform: rotate(-24deg); }
 .ring-one { width: 196px; height: 130px; }
@@ -372,5 +370,4 @@ h1 em, h2 em { color: var(--orange); font-family: "Lobster", cursive; font-style
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
-  .hero-canvas { opacity: 0.62; }
 }
