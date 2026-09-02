@@ -88,6 +88,13 @@ h1 em, h2 em { color: var(--orange); font-family: "Lobster", cursive; font-style
 .home-note { display: grid; grid-template-columns: 1fr minmax(220px, 350px) auto; align-items: end; gap: 40px; padding: 80px 10vw; border-top: 1px solid rgba(255, 152, 8, 0.3); background: linear-gradient(135deg, #fff2da, #fffaf2); }
 .home-note > p { margin: 0; color: var(--muted); font-size: 0.98rem; }
 .home-links-section { background: linear-gradient(180deg, rgba(255, 247, 232, 0.66), rgba(255, 255, 255, 0.25)); }
+.home-explore-section { background: linear-gradient(135deg, rgba(255, 242, 218, 0.82), rgba(255, 250, 242, 0.72)); }
+.home-explore-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; max-width: 1220px; }
+.home-explore-card { display: grid; gap: 12px; min-height: 220px; padding: 30px; border-radius: var(--radius); text-decoration: none; transition: transform 180ms ease, box-shadow 180ms ease; }
+.home-explore-card:hover, .home-explore-card:focus-visible { transform: translateY(-4px); outline: none; box-shadow: 0 28px 70px rgba(18, 15, 10, 0.17); }
+.home-explore-card h3 { margin: 0; font-size: 2rem; line-height: 1.02; }
+.home-explore-card p { max-width: 440px; margin: 0; color: var(--muted); font-size: 0.94rem; }
+.home-explore-card .text-link { align-self: end; }
 .home-links-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; max-width: 1220px; }
 .home-link-card { display: grid; gap: 10px; min-height: 150px; padding: 24px; border-radius: var(--radius); text-decoration: none; transition: transform 180ms ease, box-shadow 180ms ease; }
 .home-link-card:hover, .home-link-card:focus-visible { transform: translateY(-4px); outline: none; box-shadow: 0 28px 70px rgba(18, 15, 10, 0.17); }
@@ -216,7 +223,7 @@ h1 em, h2 em { color: var(--orange); font-family: "Lobster", cursive; font-style
   .lead { font-size: 1.05rem; }
   .hero-education-body { min-height: 360px; padding: 36px 22px 28px; }
   .hero-education-body h2 { font-size: 2rem; }
-  .home-project-grid, .about-content, .project-list-card, .project-summary, .project-case-details, .home-links-grid, .experience-layout, .detail-hero, .detail-body, .contact-page { grid-template-columns: 1fr; }
+  .home-project-grid, .about-content, .project-list-card, .project-summary, .project-case-details, .home-explore-grid, .home-links-grid, .experience-layout, .detail-hero, .detail-body, .contact-page { grid-template-columns: 1fr; }
   .section { padding: 72px 18px; }
   .section-heading-row { display: block; }
   .section-heading-row .text-link { display: inline-block; margin-top: 23px; }
