@@ -11,6 +11,8 @@ Open `index.html` directly in a browser, or serve the folder with any static fil
 - Resume-backed profile, education, experience, technical skills, and contact links on the home page
 - Data analysis project covering economic growth and environmental health
 - Machine learning project analysing video game markets
+- DeliveryDrill, a Java CLI for deterministic webhook resilience testing
+- TupleStone, a C++20 embedded SQL database vertical slice
 - A single projects page that can grow with additional case-study sections
 
 The project details are intentionally a first pass. Future updates can add source links, screenshots, technical decisions, outcomes, and longer case-study sections once those details are confirmed.

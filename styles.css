@@ -143,8 +143,12 @@ h1 em, h2 em { color: var(--orange); font-family: "Lobster", cursive; font-style
 .project-art { position: relative; min-height: 250px; overflow: hidden; }
 .economics-art { background: linear-gradient(140deg, #fffdf9, #ffd697); }
 .games-art { background: linear-gradient(145deg, #1a1916, #4d3015); }
+.delivery-art { background: linear-gradient(140deg, #fff7e8, #f59b18 85%); }
+.tuple-art { background: linear-gradient(145deg, #101814, #3f684f); }
 .art-label { position: absolute; top: 18px; left: 18px; padding: 5px 8px; border: 1px solid rgba(255, 255, 255, 0.5); border-radius: 4px; background: rgba(255, 255, 255, 0.56); color: var(--orange-deep); font-family: "JetBrains Mono", monospace; font-size: 0.63rem; font-weight: 800; }
 .games-art .art-label { color: #ffe0ad; background: rgba(17, 16, 14, 0.42); }
+.delivery-art .art-label { color: #6a3a00; background: rgba(255, 255, 255, 0.58); }
+.tuple-art .art-label { color: #e6f5e7; background: rgba(16, 24, 20, 0.42); }
 .art-grid { position: absolute; inset: 68px 28px 32px; opacity: 0.62; background: linear-gradient(rgba(17, 16, 14, 0.12) 1px, transparent 1px), linear-gradient(90deg, rgba(17, 16, 14, 0.12) 1px, transparent 1px); background-size: 44px 34px; }
 .art-line { position: absolute; height: 3px; border-radius: 999px; transform-origin: left center; background: var(--orange); box-shadow: 0 0 12px rgba(255, 152, 8, 0.4); }
 .art-line-one { width: 45%; left: 15%; top: 70%; transform: rotate(-14deg); }
@@ -155,6 +159,17 @@ h1 em, h2 em { color: var(--orange); font-family: "Lobster", cursive; font-style
 .window-one { top: 82px; left: 18%; z-index: 3; }
 .window-two { top: 55px; right: 18%; z-index: 2; transform: rotate(11deg) scale(0.82); }
 .window-three { bottom: 24px; left: 35%; z-index: 1; transform: rotate(-2deg) scale(0.78); }
+.delivery-flow { position: absolute; inset: 0 12%; display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.delivery-flow::before { content: ""; position: absolute; top: 50%; right: 0; left: 0; height: 2px; background: rgba(79, 43, 0, 0.3); }
+.delivery-flow span, .delivery-flow i { position: relative; z-index: 1; }
+.delivery-flow span { display: grid; place-items: center; width: 76px; height: 76px; border: 2px solid rgba(79, 43, 0, 0.55); border-radius: 50%; background: rgba(255, 247, 232, 0.85); color: #4f2b00; font-family: "JetBrains Mono", monospace; font-size: 0.65rem; font-style: normal; font-weight: 800; }
+.delivery-flow i { width: 9px; height: 9px; border-radius: 50%; background: #4f2b00; box-shadow: 0 0 0 5px rgba(79, 43, 0, 0.12); }
+.tuple-block { position: absolute; top: 64px; right: 16%; left: 16%; padding: 22px 20px; border: 1px solid rgba(230, 245, 231, 0.35); border-radius: 8px; background: rgba(16, 24, 20, 0.44); transform: rotate(-4deg); box-shadow: 0 20px 34px rgba(0, 0, 0, 0.2); }
+.tuple-block::before { content: "TUPLESTONE / SQL"; display: block; margin-bottom: 18px; color: #b9d8bc; font-family: "JetBrains Mono", monospace; font-size: 0.62rem; font-weight: 800; letter-spacing: 0.08em; }
+.tuple-row { display: grid; grid-template-columns: 0.8fr 1.4fr 0.6fr; gap: 8px; height: 13px; margin-top: 9px; }
+.tuple-row i { display: block; border-radius: 99px; background: linear-gradient(90deg, #ffad2e, rgba(185, 216, 188, 0.7)); }
+.tuple-row i:nth-child(2) { background: rgba(230, 245, 231, 0.66); }
+.tuple-row i:nth-child(3) { background: rgba(255, 173, 46, 0.56); }
 
 .experience-page-section { background: linear-gradient(180deg, rgba(255, 255, 255, 0.4), rgba(255, 247, 232, 0.6)); }
 .experience-layout { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(270px, 0.8fr); gap: 70px; max-width: 1160px; }
