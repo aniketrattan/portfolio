@@ -104,21 +104,13 @@ h1 em, h2 em { color: var(--orange); font-family: "Lobster", cursive; font-style
 .about-story p:not(.eyebrow):not(.large-copy) { margin: 0; color: #454038; }
 .about-story p + p { margin-top: 15px !important; }
 .about-aside { display: grid; gap: 16px; }
-.fact-card { display: grid; gap: 10px; padding: 22px; border-radius: var(--radius); color: var(--muted); font-size: 0.8rem; }
-.fact-value { color: var(--orange-deep); font-family: "JetBrains Mono", monospace; font-size: 1.65rem; font-weight: 800; line-height: 1; }
-.fact-value span { color: var(--muted); font-size: 0.7rem; }
-.education-section, .skills-section { background: linear-gradient(180deg, rgba(255, 247, 232, 0.66), rgba(255, 255, 255, 0.25)); }
-.education-layout { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(260px, 0.9fr); gap: 22px; max-width: 1000px; }
-.education-card, .coursework-card { position: relative; overflow: hidden; padding: 30px; border-radius: var(--radius); }
-.education-card h3 { margin: 22px 0 0; font-size: 2.2rem; line-height: 1; }
-.education-card > p { margin: 13px 0 0; color: var(--muted); font-size: 1rem; }
-.education-card em { color: var(--orange-deep); font-style: normal; }
-.education-gpa { display: flex; align-items: baseline; gap: 8px; margin-top: 30px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--orange-deep); font-family: "JetBrains Mono", monospace; }
-.education-gpa span { font-size: 2.1rem; font-weight: 800; }
-.education-gpa small { color: var(--muted); }
-.coursework-card ul, .project-list-content ul { display: grid; gap: 12px; margin: 18px 0 0; padding: 0; list-style: none; }
-.coursework-card li, .project-list-content li { position: relative; padding-left: 20px; color: #4b453d; }
-.coursework-card li::before, .project-list-content li::before { content: ""; position: absolute; top: 0.65em; left: 0; width: 8px; height: 8px; border-radius: 50%; background: var(--orange); box-shadow: 0 0 0 3px rgba(255, 152, 8, 0.14); }
+.tools-card { padding: 30px; border-radius: var(--radius); }
+.tools-card h3 { margin: 0; font-size: 2.25rem; line-height: 0.98; }
+.tools-card h3 em { color: var(--orange); font-family: "Lobster", cursive; font-style: normal; font-weight: 400; letter-spacing: 0; }
+.tools-card .skills-cloud { margin-top: 28px; }
+.project-list-content ul { display: grid; gap: 12px; margin: 18px 0 0; padding: 0; list-style: none; }
+.project-list-content li { position: relative; padding-left: 20px; color: #4b453d; }
+.project-list-content li::before { content: ""; position: absolute; top: 0.65em; left: 0; width: 8px; height: 8px; border-radius: 50%; background: var(--orange); box-shadow: 0 0 0 3px rgba(255, 152, 8, 0.14); }
 .skills-cloud { max-width: 1000px; gap: 10px; }
 .skills-cloud span { padding: 9px 13px; }
 
@@ -225,7 +217,7 @@ h1 em, h2 em { color: var(--orange); font-family: "Lobster", cursive; font-style
   .lead { font-size: 1.05rem; }
   .hero-education-body { min-height: 360px; padding: 36px 22px 28px; }
   .hero-education-body h2 { font-size: 2rem; }
-  .home-project-grid, .about-content, .education-layout, .project-list-card, .project-summary, .project-case-details, .home-links-grid, .experience-layout, .detail-hero, .detail-body, .contact-page { grid-template-columns: 1fr; }
+  .home-project-grid, .about-content, .project-list-card, .project-summary, .project-case-details, .home-links-grid, .experience-layout, .detail-hero, .detail-body, .contact-page { grid-template-columns: 1fr; }
   .section { padding: 72px 18px; }
   .section-heading-row { display: block; }
   .section-heading-row .text-link { display: inline-block; margin-top: 23px; }
