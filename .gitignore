@@ -6,3 +6,6 @@ tmp/
 # OS junk
 .DS_Store
 Thumbs.db
+
+# Design reference supplied during development
+Portfolio UI redesign mockups.zip
